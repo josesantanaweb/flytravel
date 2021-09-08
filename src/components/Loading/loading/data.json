@@ -1,0 +1,411 @@
+{
+  "v": "5.7.1",
+  "fr": 25,
+  "ip": 0,
+  "op": 45,
+  "w": 300,
+  "h": 300,
+  "nm": "Comp 1",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 98,
+      "h": 35,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAAAjCAMAAABYfy/1AAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAkFBMVEVHcEzi4uLBwcGAgICrq6ujo6OFhYVubm6VlZXR0dFycnLb29txcXF3d3eioqKHh4dvb2/V1dWEhITw8PDZ2dm7u7vr6+vu7u6ioqKxsbGqqqqKioqQkJB/f3+VlZXCwsLh4eHo6OjIyMiEhITNzc3u7u6ampra2tq3t7d1dXV6enq9vb2dnZ3S0tLW1tbT09ObI9izAAAAGHRSTlMAvL15P4FA/heAXjqm7sTDzbicwFvg4ND9NJ78AAAB2klEQVRIx+2Wa2KCMBCEoYSAgEWs2lZsCQpIFOn9b9eQ8EgCKEX41zmAn7Mzu0GxTGVuWYYzO8QwZodYRgGBc9sgWmnmzDawgbEzX/QragNjfLk4M3mBpYuCcflarqE5jw1cIYhO7nrqmcFmUpRxIvJ9V5vSjiO4YATfPxC5+kQgc2kY/KAaxjdRkry+6joAz6E0MQvOBkUkSfZBVbAIDICh/922ucSxnAWPyDLK2BN9UqVE2xemhSBPZdqFYRjH8RuXeEcWfjWopCGUjAJxJQqC4FgoiqLb7SfPz0SIKKQSEIpzd1BZOaiawSECRmCImoHaCHMpIPxTB4IzQRjXtCYwE6ULhM4VIRQQijUgi14Xx14XO2HH/5BFKmXBuyizQAwRi8txL4vGRVWpYlBdLlCTt4wgoxIRh84sBBccgWsUzQIxQizdESkLf3AW7UbVrZXvSFfaXY0qENWg2o1C/S4UOHYvhEbVpaUM+bJpj/diX+1FK22+UahuVOt4ugMblfY36iw2ymyf9VE3KpJvVIl4VxcdL+Co7W43SlUXG7vvm+fBXty/UXmueuS3H7xe61F74Xnk3bDtoV8Lmqa5rttRWjGLLXuONrb9zJNrQggBBECvBEop/5pcvybVzck+5/hvAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_1",
+      "w": 111,
+      "h": 214,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG8AAADWCAMAAADo3izvAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAZlBMVEVHcEzjQAjnSQjjPwnxXATlRgjcMwvoTAfrUQbuVgX0YgPxXQT1ZAP4aQLaLQvXKAzZKQvoSQfVIgzfOAntVQXrTwboSQfcMQriPgnwWQXlQwjYKgv1ZAPzYAP7cQD3aALxXQT5bAGQYZAlAAAAEnRSTlMAvyBVZEB/DzDwp4nJ6KXV8Np5eTN0AAAKf0lEQVR42r2cibaiuhKGJSTMgyioICi+/0ueVGUEvedctwWla+9uey2//mtKgCSHw7fGxGFPS47hvrjjnri4PlX74k7hvrgT2xdX7yevkrgdw4e4/cIXIW638IUKt1f4hMLtFb7kqHnRPpVgcCexW+Ep27ESdkuXyOJ2SZfQ4fZIF5ua+6RL7ON26C61jzvtmJpgwZ65skN6Jkvc1ukZ1yvexoNfsMJtXA7RGrdtOfi5cofX/b4ljh1XsPu23bo2LA2T72Dj4N0dDi3YMnjGi55tV36yS69oV/najhcsaFf1um7GizycQqFtVe7JO+y+IS+uHc2yNuRVmnb1fXmWr3ibUlhFTbHk67xRH3Oe9GHnjXiB8qRPA7tuxIt8cUBRuK30sZUjnd3OzSbDgnbmiiZx503aNXeedCxl2wwP9UrdTeLwx0a86Hr1vahwG+qLj+eFNmcbDbeR70drwzCQ86rYCFyLk7QbOS+5quuD3KWkZgGNXl91PeOElvm+BJRCUvNimSVKYOVp0yxpl2CDPMEhlfmeNDRyHqZJ4Am02i7KaHmhysrQCPSVwYuaV6siUINAYAOnWeT6hKk5nGQKT5yxjpRXmaI7xlogxs3iuktHOf4x05uHwQi8LMRduq4jLgZTBVj0jaMBC3CEPOiZuqMMAxZ9uMApIxzVz36JY9E3K5i0mLD4jDrbmPnCldLajnA+HywaWKgEeuJaMEIeO3od7NIogVZb20p1bcspE9TIwzyBb45T40fAgeWUBd943XlIITUii9NGykuUM3URRFqgpfVt3xdUvsREz/3unELR551P62eqBtpghceNlSfdmEES2cj1aDMR73bDAggtDl6J/CRrPVo/9zQFn8hBAXtmoMYDVQXgPLagzTNNAYY33VLi1LUwVd2ZDh3S5plTld4wcNPDbI0XKLB3tHmmKYgKCyHRHjXy2g7+C4VHm+eMpndi5TWQDMnl4oocPhHAUzZNE00BNqqvoLO8ntL3OQp0uGki4aE8mZlqVLCjQdtDVxMebZoSEp7u09g0hW2Z0pMQr8LRpokiQYWdQ2NRZJ3XUmRZcocbx5yIp7umGoa8pgICS0sbx4JKn+pjKcQntLgZOwq3tHEsKeZKRp6Z0gYGJ4GFFjhqI3jiEfnDAgSIpcsWxh3uGZLwvDYNXZO3rquUEFFDez5zGp7r09hmCh29eZonScgN7fksyPxp+iakZGJw0pOyKuPS4J4lBc9GD0sPiiK3vGlUAhXu9UwoedhYYOoSN7aJQU7GGvd8vTgFb7hcvGk0xEjYLjaO0sOZpr1evw9JoUsXb16bWXnjUxyYwT1+TxixiB6WegJF4NpKgQJfaI+YhNc5YN9PUBSujT1llTONez1+rvjY6rONGicOhZGHVZAp2uPxe8VbfXpYh1qQKpjjPflBaHkEAQzW4ZM8KIrc4p5lfCiUvMfvAcwX+aJbGQ4MlvfKQSDifg9g6MszPBgYhG2br5IdiscDiTlJwvjh67HYE9WodaVnB67kkQSw892pJ2SFatSm0pNDqYE/BzBJL+5C1g4N0KhDy5OyjMDfW2iSerNcNzLIzChs43wII5BgVq+BLl2A95RDHyuNPieQYtIEwHbFm2Bk4FreC/yoBSY0wNZe7Bme7CvgUc0r45wqgAhc64P5ZnJILO+RxyVVADWwX/FgfpSbkcgJPJABl/6UwFwW4cu0zkwL/LmlMafQ8kbkycHdDg2PB8toHJqFBrjSN8LQkDmBjKYiRMc18I33zJRHVbMWGU1FBF3ugLNLGDXYciuwUALz3wV2mQX6vFGNRRbIM6IxQl86AHDJg4sGhjgglgKxjEBg2zAH9AIIo3tu9D3ygqbFSIEtXt9KoM9DYKKmLygwpGkxeGMi5QugN18SK4ExiUB9TxyAC4GyKHJbE5zGoUyNSJkGLh36Cl0RZiVNz87UCJ/FH4DPkoW2q2U0DmWpvh5TQO82CCgs9JQeRvqSZhCM9BBfJCsgTmI4Kw0wo3Fo3JgbdQ7oBL4Sbq6RyvJF4VBZE3qIx7pYAZ9FXFjgi+LKWo7ldgr6Dny9cjO3QCbFrEJ5tDeXgGuXhvnTI1I8HRDevcH4TWGpp6OKSTJNy90srVgBYewVT2c00zTr0b6Vs8EV8MUzi6NxqJ6Hqmcq6Ro4lqJ0Amkef3B/3svXMSz4aHlEz+cC74mYAxpiXtiboSPNevPYzOxnAGYWqIm8lCR4j0QOVXewe3NpLdPUAJFY5qONJg3PazOg0QJHfZVmPDqNCQ1PN25z70CmqVMIQO3ZaaJ6gpz4DzYlUDgg3PLNjHfTA6lH7bNNmaah95ylNM9AJrIdH0Hr3f7p4VEjt7d8ZQ4ZckbFY2m7lJgpIDLnyQicydaMhHZdgSYWsQF6NtGtqcg671n//wQWZLy46VYS04Tbp6vWEjKgsKsnek1MQ96vjSxjcP2EW0ChGirn9um//p3S8fyHuagRniG/KSRchZPgXTy3AAZUZh5Q8tuZctld5C9f0sSCt55JJqP2KGp0zCZHDL7Il/3w1KwAcMg09xW2lBkjyzByi8K0Z7s083kdJwUeWOaArf6l2rn+mHxhtgi6bsHUKO3ljn6fHm+6tbXujxklKuExhjFdrF307ZJ+HJWYEOIvw1WQ5gzDqFdSLVAdfHh5zxhRpcMAi/y/7+fwgDCAiUOCT7bWb/njsl5qGzYIAzt/n72AuTSwKi5s3IIxBHV6Pd5i5ZZoBlz7qHjnOgq/c6vQT7Ar+a1RevlkXknEuJjarIiHZbqwjjz6xq+BWWLR8DjOPwKZa0hLmtq9JK2uwi8E6jVAg8wdFvggXHOoVz+hOEe7GRq8wI7sG4H6m2XuiOZi17nrT1VJhKmDWXFKnhT4/4eRL7cKNFGUDoi0dsNlEAtpmqa0VdFXTagZFsTLEAQL3HBrDqy5fRAHuPrrhYeR2+bx0WBd+vGDOMT9YRs77lBwe1ncphad++rfjDRr6Ms/bTNt1PpltYhZFfNg/n7zk+Qtcn+7pOHehh339pPf5b9PO/5xPsxu/2nnRQlAFZyv9Z+vZ5rl5q4VaaFM06AK/n75VJnta/4+r7Mfr9ua9tOG5FB9H3658ZthLeTp3vX30Olh3t/qeHPglSFN9ecfL0XP/2VXJ+1KsLlbhFEV1P/C8mBXulPEYsmNHPfqswzxXlPPEIUIJdPsPvZZsL+V5twPOb+LIunTwNuguzbYLEzlS+9r30GWRufL+vovJkHwvt8DsjsygRLg7R33ZWki4ZEtkTs7wf1Sn1mjPEElUgwFuJpfV/NHaUfSEweiu1NzXajSVie0NXf/d6uIzzcQ97cTPpTh2R/0h+2I00l/9/KFPzY4djE23/0GPJ2OyYHe7ClhVVUvjp061ZscTYGoKAyr9bk+G53LFImYRW+HFm13TBKL6nfY6bjZKUmnT1Zvd0jSJ1wVH/bkbXqilnXhcfPQOd6xCnYIne5np2MUHfcIHc7oJS2s9zurr4oS11n2OBbXufJUJ9vj6n2q7kP57XIqJ9szdAd3xOkeoVPlsF/oMDt3PFAVp/P7hQ7tuHnDXN4v2DF0KnzRYU8L9j23/EDjy38A0hhNPMfARUYAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_2",
+      "w": 26,
+      "h": 16,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAQCAMAAAA/D5+aAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAjVBMVEVHcEyamprq6uqCgoKqqqq/v7/V1dXHx8fd3d3j4+NycnJ3d3fCwsLo6OjNzc2ampra2trt7e2Pj4+QkJDc3Nzi4uKdnZ2SkpKurq7BwcHQ0NDHx8eXl5fR0dGBgYF8fHxqamplZWWbm5vR0dHLy8vAwMC6urrX19e1tbWPj4+urq6pqamjo6OFhYXo6OjbGNV2AAAAInRSTlMAFHaNkZEe/v79lfw+sHiR6DCgkVBg8MDgwNBgYKDgQGA/aVqHpAAAAIhJREFUGNN1zekSgjAMRtGWpkAXBxwE9w1XBPr+j6eOk4FozN8z+a4Q/MXRHxBRmPDgcxPYL7m9pSZMGVknpxcZJr9Mzm/6TcH18qHvlF/ckWhKQvtASolsqm6gcUrO63pE5SCqaQjFCPtdTyif4ZZ1PaEV/hyco6Rx7GitVUoVRZYBgNbaozwB/58S8Bys79cAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_3",
+      "w": 72,
+      "h": 27,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAAbCAMAAADoKTksAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAt1BMVEVHcEyxsbHc3Nzp6enNzc2FhYWjo6NycnLS0tK1tbV2dnbAwMClpaWPj4+BgYGXl5e2trbq6url5eXn5+fV1dXV1dVvb2/MzMylpaWCgoKFhYVycnLExMSJiYmTk5NtbW3j4+Ojo6O+vr7Ozs6RkZHX19e1tbWLi4unp6etra25ubmgoKDs7OzDw8OampqFhYWWlpbl5eXJycl/f394eHjS0tLc3Nzg4OCysrKwsLBwcHCqqqrGxsZ/ygY7AAAAIXRSTlMAw1lqIn5Afz4PR4B2vCycnOyFmLDGxuDgwOiY2MDY8LDShTafAAABNklEQVQ4y73V6XKCMBQFYJbIjuxCx6WVRVwQBFxa7fs/V5mgzEAphuD0/OebM5fchCBeEUBTL1AoQ4siYyDC0R9pGhXRByFmcLmkKZRoTIPSrSAIzmcIRTgQ4ERz5nne6VSHkIfNM5yokjN3v//OshaI6/6cYRhJkkjS+fpcrbZb1y2hrA6lEBLYKqN75Lksy4tDHMe73XK5vt02mzrU0ggQ/OQKcyyS53mSJGEY+r5/qKD1LyhrQhqc9RQ6V+igQY1Gms6XkxDehzSqmCLjCWx0xGlkgNrvYTEbNRhYCmNGJmg7M2zfRtZfh5Cf9mlkdZ1l4Q21kf1kJQoKBbJRVlSYP4Ns1E0fK52QyKNfOvxo0QoVUh/mXqutUW+mvIwUpw6pAP+9khTnAQ1gHpespJIkCYh/yg/eR5Lf51JZDgAAAABJRU5ErkJggg==",
+      "e": 1
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 2,
+      "nm": "Capa 1/loader.ai",
+      "cl": "ai",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [123, 193.25, 0], "ix": 2 },
+        "a": { "a": 0, "k": [49, 17.5, 0], "ix": 1 },
+        "s": { "a": 0, "k": [70, 70, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "hasMask": true,
+      "masksProperties": [
+        {
+          "inv": false,
+          "mode": "a",
+          "pt": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": 0.833, "y": 0.833 },
+                "o": { "x": 0.167, "y": 0.167 },
+                "t": 0,
+                "s": [
+                  {
+                    "i": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "o": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "v": [
+                      [0, 31.429],
+                      [0, 66.429],
+                      [98, 66.429],
+                      [98, 31.429]
+                    ],
+                    "c": true
+                  }
+                ]
+              },
+              {
+                "t": 11,
+                "s": [
+                  {
+                    "i": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "o": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "v": [
+                      [0, -2.857],
+                      [0, 32.143],
+                      [98, 32.143],
+                      [98, -2.857]
+                    ],
+                    "c": true
+                  }
+                ]
+              }
+            ],
+            "ix": 1
+          },
+          "o": { "a": 0, "k": 100, "ix": 3 },
+          "x": { "a": 0, "k": 0, "ix": 4 },
+          "nm": "Máscara 1"
+        }
+      ],
+      "ip": 0,
+      "op": 45,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 2,
+      "nm": "Capa 2/loader.ai",
+      "cl": "ai",
+      "refId": "image_1",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [167, 139.5, 0], "ix": 2 },
+        "a": { "a": 0, "k": [55.5, 107, 0], "ix": 1 },
+        "s": { "a": 0, "k": [70, 70, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "hasMask": true,
+      "masksProperties": [
+        {
+          "inv": false,
+          "mode": "a",
+          "pt": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": 0.833, "y": 0.833 },
+                "o": { "x": 0.167, "y": 0.167 },
+                "t": 0,
+                "s": [
+                  {
+                    "i": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "o": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "v": [
+                      [0, 214.286],
+                      [0, 428.286],
+                      [111, 428.286],
+                      [111, 214.286]
+                    ],
+                    "c": true
+                  }
+                ]
+              },
+              {
+                "t": 44,
+                "s": [
+                  {
+                    "i": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "o": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "v": [
+                      [0, 0],
+                      [0, 214],
+                      [111, 214],
+                      [111, 0]
+                    ],
+                    "c": true
+                  }
+                ]
+              }
+            ],
+            "ix": 1
+          },
+          "o": { "a": 0, "k": 100, "ix": 3 },
+          "x": { "a": 0, "k": 0, "ix": 4 },
+          "nm": "Máscara 1"
+        }
+      ],
+      "ip": 0,
+      "op": 45,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 2,
+      "nm": "Capa 5/loader.ai",
+      "cl": "ai",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [148.75, 211.5, 0], "ix": 2 },
+        "a": { "a": 0, "k": [13, 8, 0], "ix": 1 },
+        "s": { "a": 0, "k": [70, 70, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "hasMask": true,
+      "masksProperties": [
+        {
+          "inv": false,
+          "mode": "a",
+          "pt": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": 0.833, "y": 0.833 },
+                "o": { "x": 0.167, "y": 0.167 },
+                "t": 0,
+                "s": [
+                  {
+                    "i": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "o": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "v": [
+                      [0, 14.286],
+                      [0, 30.286],
+                      [26, 30.286],
+                      [26, 14.286]
+                    ],
+                    "c": true
+                  }
+                ]
+              },
+              {
+                "t": 1,
+                "s": [
+                  {
+                    "i": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "o": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "v": [
+                      [0, 0],
+                      [0, 16],
+                      [26, 16],
+                      [26, 0]
+                    ],
+                    "c": true
+                  }
+                ]
+              }
+            ],
+            "ix": 1
+          },
+          "o": { "a": 0, "k": 100, "ix": 3 },
+          "x": { "a": 0, "k": 0, "ix": 4 },
+          "nm": "Máscara 1"
+        }
+      ],
+      "ip": 0,
+      "op": 45,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 4,
+      "ty": 2,
+      "nm": "Capa 6/loader.ai",
+      "cl": "ai",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [132.25, 208.5, 0], "ix": 2 },
+        "a": { "a": 0, "k": [36, 13.5, 0], "ix": 1 },
+        "s": { "a": 0, "k": [70, 70, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "hasMask": true,
+      "masksProperties": [
+        {
+          "inv": false,
+          "mode": "a",
+          "pt": {
+            "a": 1,
+            "k": [
+              {
+                "i": { "x": 0.833, "y": 0.833 },
+                "o": { "x": 0.167, "y": 0.167 },
+                "t": 0,
+                "s": [
+                  {
+                    "i": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "o": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "v": [
+                      [0, 28.571],
+                      [0, 55.571],
+                      [72, 55.571],
+                      [72, 28.571]
+                    ],
+                    "c": true
+                  }
+                ]
+              },
+              {
+                "t": 3,
+                "s": [
+                  {
+                    "i": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "o": [
+                      [0, 0],
+                      [0, 0],
+                      [0, 0],
+                      [0, 0]
+                    ],
+                    "v": [
+                      [0, 4.286],
+                      [0, 31.286],
+                      [72, 31.286],
+                      [72, 4.286]
+                    ],
+                    "c": true
+                  }
+                ]
+              }
+            ],
+            "ix": 1
+          },
+          "o": { "a": 0, "k": 100, "ix": 3 },
+          "x": { "a": 0, "k": 0, "ix": 4 },
+          "nm": "Máscara 1"
+        }
+      ],
+      "ip": 0,
+      "op": 45,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

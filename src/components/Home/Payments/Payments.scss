@@ -1,0 +1,56 @@
+.payments {
+  padding: 4rem 0;
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    right: 300px;
+    bottom: -50px;
+    width: 278px;
+    z-index: -1;
+    height: 498px;
+    background: url("https://i.ibb.co/vmj1kcb/fly.png");
+  }
+}
+
+.payments-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 8rem 0;
+}
+
+.payments-item {
+  width: 31%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  height: 140px;
+}
+
+.payments-item h6 {
+  color: var(--color-title);
+  font-size: 20px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.payments-item p {
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 1rem 0 2rem;
+}
+
+.payments-item img {
+  width: 50px;
+}

@@ -1,0 +1,30 @@
+.title-section {
+  text-align: left;
+  color: var(--color-primary);
+  font-size: 24px;
+  position: relative;
+  line-height: 1.25;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 1rem;
+  span {
+    font-weight: 500;
+    margin-left: 0.5rem;
+  }
+}
+
+.subtitle-section {
+  text-align: left;
+  color: var(--color-secondary);
+  font-size: var(--font-size);
+  font-weight: 500;
+  line-height: 1.25;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 2rem;
+  span {
+    line-height: 1.25;
+    font-weight: 600;
+  }
+}

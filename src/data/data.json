@@ -1,0 +1,417 @@
+{
+  "data": [
+    {
+      "destinations": [
+        {
+          "id": 1,
+          "country": "Alemania",
+          "city": "Berlin",
+          "image": "berlin.png",
+          "price": 263,
+          "description": "Vivamus vestibulum, nisl vitae pharetra, elit ex mattis tortor"
+        },
+        {
+          "id": 2,
+          "country": "Inglaterra",
+          "city": "London",
+          "image": "london.png",
+          "price": 463,
+          "description": "Vivamus vestibulum, nisl vitae pharetra, elit ex mattis tortor"
+        },
+        {
+          "id": 3,
+          "country": "Francia",
+          "city": "Paris",
+          "image": "paris.png",
+          "price": 323,
+          "description": "Vivamus vestibulum, nisl vitae pharetra, elit ex mattis tortor"
+        },
+        {
+          "id": 4,
+          "country": "Emirates",
+          "city": "Dubai",
+          "image": "dubai.png",
+          "price": 800,
+          "description": "Vivamus vestibulum, nisl vitae pharetra, elit ex mattis tortor"
+        }
+      ]
+    },
+    {
+      "offers": [
+        {
+          "id": 1,
+          "city": "Miami Beach",
+          "image": "offers_1.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        },
+        {
+          "id": 2,
+          "city": "Miami Beach",
+          "image": "offers_2.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        },
+        {
+          "id": 3,
+          "city": "Miami Beach",
+          "image": "offers_3.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        },
+        {
+          "id": 4,
+          "city": "Miami Beach",
+          "image": "offers_4.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        },
+        {
+          "id": 5,
+          "city": "Miami Beach",
+          "image": "offers_5.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        },
+        {
+          "id": 6,
+          "city": "Miami Beach",
+          "image": "offers_1.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        },
+        {
+          "id": 7,
+          "city": "Miami Beach",
+          "image": "offers_3.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        },
+        {
+          "id": 8,
+          "city": "Miami Beach",
+          "image": "offers_4.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        },
+        {
+          "id": 9,
+          "city": "Miami Beach",
+          "image": "offers_2.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        },
+        {
+          "id": 10,
+          "city": "Miami Beach",
+          "image": "offers_5.png",
+          "time": "24 HORAS DE EMOCION",
+          "type": "Hotel -Vuelos"
+        }
+      ]
+    },
+    {
+      "blog": [
+        {
+          "id": 1,
+          "title": "Justo eros posuere sapien, non maximus lectus nisl.",
+          "date": "Agosto 24, 2020",
+          "image": "post_1.png"
+        },
+        {
+          "id": 2,
+          "title": "Nunc posuere sem vel laoreet scelerisque.",
+          "date": "Julio 21, 2020",
+          "image": "post_2.png"
+        },
+        {
+          "id": 3,
+          "title": "Vestibulum tincidunt leo at congue.",
+          "date": "Enero 10, 2020",
+          "image": "post_3.png"
+        }
+      ]
+    },
+    {
+      "payments": [
+        {
+          "id": 1,
+          "title": "Tarjeta de Credito",
+          "subtitle": "Visa y Mastercard",
+          "image": "visa.png"
+        },
+        {
+          "id": 2,
+          "title": "Efectivo en Oficinas",
+          "image": "wallet.png"
+        },
+        {
+          "id": 3,
+          "title": "Transferencia bancaria",
+          "subtitle": "Zelle o Banesco Panama",
+          "image": "museum.png"
+        },
+        {
+          "id": 4,
+          "title": "Wester Union",
+          "image": "wester.png"
+        },
+        {
+          "id": 5,
+          "title": "Paypal",
+          "image": "paypal.png"
+        }
+      ]
+    },
+    {
+      "offers2": [
+        {
+          "id": 1,
+          "city": "Buenos Aires",
+          "image": "offers_1.jpg",
+          "country": "ARGENTINA",
+          "amount": "450"
+        },
+        {
+          "id": 2,
+          "city": "Houston",
+          "image": "offers_2.jpg",
+          "country": "ESTADOS UNIDOS",
+          "amount": "600"
+        },
+        {
+          "id": 3,
+          "city": "Bogota",
+          "image": "offers_3.jpg",
+          "country": "COLOMBIA",
+          "amount": "200"
+        },
+        {
+          "id": 4,
+          "city": "Los Angeles",
+          "image": "offers_4.jpg",
+          "country": "ESTADOS UNIDOS",
+          "amount": "255"
+        },
+        {
+          "id": 5,
+          "city": "Vina del Mar",
+          "image": "offers_5.jpg",
+          "country": "CHILE",
+          "amount": "255"
+        },
+        {
+          "id": 6,
+          "city": "Vina del Mar",
+          "image": "offers_5.jpg",
+          "country": "CHILE",
+          "amount": "255"
+        },
+        {
+          "id": 7,
+          "city": "Bogota",
+          "image": "offers_3.jpg",
+          "country": "COLOMBIA",
+          "amount": "200"
+        },
+        {
+          "id": 8,
+          "city": "Houston",
+          "image": "offers_2.jpg",
+          "country": "ESTADOS UNIDOS",
+          "amount": "600"
+        },
+        {
+          "id": 9,
+          "city": "Los Angeles",
+          "image": "offers_4.jpg",
+          "country": "ESTADOS UNIDOS",
+          "amount": "255"
+        },
+        {
+          "id": 10,
+          "city": "Vina del Mar",
+          "image": "offers_5.jpg",
+          "country": "CHILE",
+          "amount": "255"
+        },
+        {
+          "id": 11,
+          "city": "Houston",
+          "image": "offers_2.jpg",
+          "country": "ESTADOS UNIDOS",
+          "amount": "600"
+        },
+        {
+          "id": 12,
+          "city": "Los Angeles",
+          "image": "offers_4.jpg",
+          "country": "ESTADOS UNIDOS",
+          "amount": "255"
+        },
+        {
+          "id": 13,
+          "city": "Vina del Mar",
+          "image": "offers_5.jpg",
+          "country": "CHILE",
+          "amount": "255"
+        }
+      ]
+    },
+    {
+      "airlines": [
+        {
+          "id": 1,
+          "name": "Avianca",
+          "link": "avianca",
+          "abr": "AV",
+          "image": "avianca.png"
+        },
+        {
+          "id": 2,
+          "name": "American Airlines",
+          "link": "american",
+          "abr": "AA",
+          "image": "american.png"
+        },
+        {
+          "id": 3,
+          "name": "Iberia",
+          "link": "iberia",
+          "abr": "IB",
+          "image": "iberia.png"
+        },
+        {
+          "id": 4,
+          "name": "Fly The World",
+          "abr": "FW",
+          "image": "flytheworld.png"
+        },
+        {
+          "id": 5,
+          "name": "Estelar",
+          "abr": "ES",
+          "image": "estelar.png"
+        },
+        {
+          "id": 6,
+          "name": "Plus Ultra",
+          "abr": "PU",
+          "image": "plus_ultra.png"
+        },
+        {
+          "id": 7,
+          "name": "Tap Air Portugal",
+          "abr": "AP",
+          "image": "tap_portugal.png"
+        },
+        {
+          "id": 8,
+          "name": "Laser",
+          "abr": "LA",
+          "image": "laser.png"
+        },
+        {
+          "id": 9,
+          "name": "Conviasa",
+          "link": "conviasa",
+          "abr": "CA",
+          "image": "conviasa.png"
+        },
+        {
+          "id": 10,
+          "name": "Avior",
+          "abr": "AV",
+          "image": "avior.png"
+        },
+        {
+          "id": 11,
+          "name": "Copa",
+          "abr": "CA",
+          "image": "copa.png"
+        },
+        {
+          "id": 12,
+          "name": "Turkish Airlines",
+          "abr": "TA",
+          "image": "turkish_airlines.png"
+        },
+        {
+          "id": 13,
+          "name": "Albatros",
+          "abr": "AB",
+          "image": "albatros.png"
+        },
+        {
+          "id": 14,
+          "name": "Sky",
+          "abr": "SA",
+          "image": "sky.png"
+        },
+        {
+          "id": 15,
+          "name": "Aruba",
+          "abr": "AA",
+          "image": "aruba.png"
+        },
+        {
+          "id": 16,
+          "name": "Spirit",
+          "abr": "SP",
+          "image": "spirit.png"
+        },
+        {
+          "id": 17,
+          "name": "Fly to los Roques",
+          "abr": "FR",
+          "image": "flytolosroques.png"
+        },
+        {
+          "id": 18,
+          "name": "Turpial",
+          "link": "turpial",
+          "abr": "TA",
+          "image": "turpial.png"
+        },
+        {
+          "id": 19,
+          "name": "Rutaca",
+          "abr": "RA",
+          "image": "rutaca.png"
+        },
+        {
+          "id": 20,
+          "name": "Vueling",
+          "abr": "VA",
+          "image": "vueling.png"
+        },
+        {
+          "id": 21,
+          "name": "Venezolana",
+          "link": "venezolana",
+          "abr": "VZ",
+          "image": "venezolana.png"
+        }
+      ]
+    },
+    {
+      "airlines_paragraph": [
+        {
+          "id": 1,
+          "title": "¿Ponisi posuere sagittis?",
+          "text": "Quisque sit amet hendrerit sapien. Praesent at orci sit amet nisi posuere sagittis vel ac urna. Suspendisse elementum turpis magna, ac ultricies tellus maximus vel. Etiam tincidunt maximus augue id pharetra. Praesent lectus diam, blandit sit amet fermentum rhoncus, commodo eget urna."
+        },
+        {
+          "id": 2,
+          "title": "¿Ponisi posuere sagittis?",
+          "text": "Proin ipsum est, laoreet non justo sed, interdum dictum risus. Ut et nisl quis elit ultrices hendrerit vitae ac diam. Donec tempus et lacus ut consectetur. Quisque eros lacus, hendrerit in libero sit amet, lobortis tincidunt sem. Curabitur pulvinar mauris a est."
+        },
+        {
+          "id": 3,
+          "title": "¿Ponisi posuere sagittis?",
+          "text": "Quisque fermentum dignissim porttitor. Vestibulum ornare dui vehicula condimentum hendrerit. Fusce id nunc in lorem mollis viverra. Cras eu neque sed nunc gravida fermentum eget a nisi."
+        }
+      ]
+    }
+  ]
+}

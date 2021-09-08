@@ -1,0 +1,56 @@
+.flights {
+  width: 100%;
+  background: #fafafa;
+  padding: 4rem 0;
+}
+
+.flight {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  grid-gap: 2rem;
+}
+
+.flight-type {
+  margin-bottom: 4rem;
+}
+
+.flight-type-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.flight-destination {
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.flight-bound {
+  padding: 0.8rem 2rem;
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  &.in {
+    background-color: var(--color-three);
+  }
+  &.out {
+    background-color: var(--color-secondary);
+    margin-bottom: 2rem;
+  }
+}
+
+.flight-items {
+  width: 100%;
+}
+
+.flight-paginate-container {
+  width: 300px;
+  margin: auto;
+}

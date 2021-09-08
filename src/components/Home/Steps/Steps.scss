@@ -1,0 +1,163 @@
+.steps {
+  width: 100%;
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    right: 60px;
+    bottom: -170px;
+    width: 280px;
+    height: 450px;
+    background: url("https://i.ibb.co/mJWjymJ/fly.png");
+  }
+}
+
+.steps-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.steps-item-base-wrapper {
+  position: relative;
+  z-index: 5;
+}
+
+.steps-item-base-wrapper-inner {
+  width: 226px;
+  height: 470px;
+  position: relative;
+  overflow: hidden;
+  background: url("https://i.ibb.co/t2Rgpns/phone.png");
+  background-position: center;
+}
+
+.steps-item-base {
+  width: 100%;
+  height: 460px;
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  z-index: -1;
+}
+
+.steps-item-one-wrapper {
+  width: 150px;
+  position: relative;
+  height: 270px;
+  overflow: hidden;
+  right: -30px;
+  z-index: 1;
+  border: 4px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.steps-item-one {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--color-primary);
+  z-index: -1;
+  i {
+    font-size: 48px;
+    color: white;
+  }
+}
+
+.steps-item-title {
+  color: white;
+  font-size: 18px;
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.steps-item-two-wrapper {
+  width: 190px;
+  position: relative;
+  height: 340px;
+  right: -20px;
+  z-index: 2;
+  overflow: hidden;
+  border: 4px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.steps-item-two {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--color-secondary);
+  z-index: -1;
+  i {
+    font-size: 48px;
+    color: white;
+  }
+}
+
+.steps-item-three-wrapper {
+  @extend .steps-item-two-wrapper;
+  right: 0;
+  left: -20px;
+  z-index: 4;
+}
+
+.steps-item-three {
+  @extend .steps-item-one;
+  background: color(--color-primary);
+}
+
+.steps-item-four-wrapper {
+  @extend .steps-item-one-wrapper;
+  right: 0;
+  left: -30px;
+  z-index: 3;
+}
+
+.steps-item-four {
+  @extend .steps-item-two;
+  background: color(--color-secondary);
+}
+
+.steps-invitation {
+  text-align: center;
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.25;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 3rem;
+  text-align: center;
+}

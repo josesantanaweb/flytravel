@@ -1,0 +1,27 @@
+PassengerTypeCode -> Interno -> Check
+PersonName {
+  NamePrefix -> interno
+  GivenName -> form -> Check
+  Surname -> form -> Check
+}
+BirthDate -> form -> Add
+Email -> form -> Check
+Document {
+  DocID -> form -> Check
+  DocType -> form -> Check
+}
+TSAInfo {
+  BirthDate -> Interno
+  Gender M, Male, masculino; F, Female, femenino; MI, Male Infant, infante masculino; FI, Female Infant, infante femenino; U, Unknown, desconocido -> Check
+  DocExpireDate -> Check
+  DocIssueCountry -> Check
+  BirthCountry -> Check
+  TSADocType -> Interno P
+  TSADocID -> Interno Numero de pasaporte
+}
+TravelerRefNumber {
+  RPH -> Interno
+}
+
+
+{"passengers":[{"NumShow":1,"PassengerTypeCode":"ADT","PersonName":{"NamePrefix":"MR","GivenName":"Rafael","Surname":"Zerpa"},"BirthDate":"2009-03-30","Email":"zrapar@gmail.com","Document":{"DocID":"987654321","DocType":"PP"},"TSAInfo":{"BirthDate":"2009-03-30","Gender":"M","DocExpireDate":"2021-10-21","DocIssueCountry":231,"BirthCountry":231,"TSADocType":"P","TSADocID":"987654321"},"TravelerRefNumber":{"RPH":1}},{"NumShow":1,"PassengerTypeCode":"INF","PersonName":{"NamePrefix":"","GivenName":"Abnercito","Surname":"Zerpa"},"BirthDate":"2020-09-29","Document":{"DocID":"98765432174","DocType":"PP"},"TSAInfo":{"Gender":"MI","DocExpireDate":"2021-10-05","DocIssueCountry":231,"BirthCountry":231,"BirthDate":"2020-09-29","TSADocID":"98765432174"},"TravelerRefNumber":{"RPH":2}},{"NumShow":2,"PassengerTypeCode":"ADT","PersonName":{"NamePrefix":"MRS","GivenName":"Fanny","Surname":"Zerpa"},"BirthDate":"1977-04-13","Email":"fanlemilena@gmail.com","Document":{"DocID":"9513578426","DocType":"PP"},"TSAInfo":{"BirthDate":"1977-04-13","Gender":"F","DocExpireDate":"2021-10-12","DocIssueCountry":231,"BirthCountry":231,"TSADocType":"P","TSADocID":"9513578426"},"TravelerRefNumber":{"RPH":3}},{"NumShow":1,"PassengerTypeCode":"CNN","PersonName":{"NamePrefix":"","GivenName":"Jesus Ramon","Surname":"Zerpa"},"BirthDate":"2013-04-03","Email":"","Document":{"DocID":"7946138520","DocType":"PP"},"TSAInfo":{"Gender":"M","DocExpireDate":"2021-10-20","DocIssueCountry":231,"BirthCountry":231,"BirthDate":"2013-04-03","TSADocID":"7946138520"},"TravelerRefNumber":{"RPH":4}}],"voucher":"zrapar@gmail.com","phonesCall":[{"code":"+58","phone":"4128861361"}]}

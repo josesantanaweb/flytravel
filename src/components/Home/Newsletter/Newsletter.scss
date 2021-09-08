@@ -1,0 +1,47 @@
+.newsletter {
+  text-align: center;
+}
+
+.newsletter-form {
+  width: 420px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 6rem auto 6rem;
+  background: white;
+}
+
+.newsletter-input {
+  padding: 1rem 0 1rem 2rem;
+  background: white;
+  border: none;
+  width: 90%;
+  color: var(--color-text);
+  outline: none;
+  &::placeholder {
+    color: var(--color-text);
+    opacity: 1;
+  }
+
+  &::-ms-input-placeholder {
+    color: var(--color-text);
+  }
+
+  &::-ms-input-placeholder {
+    color: var(--color-text);
+  }
+}
+
+.newsletter-button {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: var(--color-primary);
+}

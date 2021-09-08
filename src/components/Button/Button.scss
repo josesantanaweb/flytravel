@@ -1,0 +1,38 @@
+.button {
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  padding: 1.3rem 2.5rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.2s all;
+  height: 40px;
+  line-height: 16px;
+}
+
+.button-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.button-secondary {
+  background: var(--color-secondary);
+  color: white;
+}
+
+.button-three {
+  background: var(--color-three);
+  color: white;
+}
+
+.button-block {
+  width: 100%;
+}
+
+.button-default {
+  border-radius: 2px;
+}

@@ -1,0 +1,13 @@
+@import "./phonecall";
+
+.passenger {
+  padding-top: 4rem;
+  background-color: var(--color-bg-default);
+}
+
+.passenger-back {
+  font-size: 1.6rem;
+  display: block;
+  cursor: pointer;
+  color: var(--color-secondary);
+}

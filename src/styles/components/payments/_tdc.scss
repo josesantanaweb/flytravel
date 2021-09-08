@@ -1,0 +1,24 @@
+.tdc {
+  padding: 2rem 1rem;
+  background-color: white;
+}
+
+.tdc-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tdc-form {
+  width: 100%;
+  margin-left: 3rem;
+}
+
+.tdc-input {
+  margin-bottom: 1rem;
+}
+
+.tdc-input:last-child {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+}

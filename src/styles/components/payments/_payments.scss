@@ -1,0 +1,16 @@
+@import "./tdc";
+@import "./zelle";
+@import "./paypal";
+@import "./transfer";
+@import "./details";
+
+.payment {
+  padding-top: 4rem;
+}
+
+.payment-back {
+  font-size: 1.6rem;
+  display: block;
+  cursor: pointer;
+  color: var(--color-secondary);
+}

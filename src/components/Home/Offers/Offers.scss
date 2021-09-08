@@ -1,0 +1,103 @@
+.main-offers {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.main-offers-items {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  grid-template-areas:
+    "one one two"
+    "three four five"
+    "six seven seven"
+    "eight nine ten";
+}
+
+.main-offers-item {
+  width: 100%;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  height: 327px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  &:nth-child(1) {
+    grid-area: one;
+  }
+  &:nth-child(2) {
+    grid-area: two;
+  }
+  &:nth-child(3) {
+    grid-area: three;
+  }
+  &:nth-child(4) {
+    grid-area: four;
+  }
+  &:nth-child(5) {
+    grid-area: five;
+  }
+  &:nth-child(6) {
+    grid-area: six;
+  }
+  &:nth-child(7) {
+    grid-area: seven;
+  }
+  &:nth-child(8) {
+    grid-area: eight;
+  }
+  &:nth-child(8) {
+    grid-area: nine;
+  }
+  &:nth-child(10) {
+    grid-area: ten;
+  }
+}
+
+.main-offers-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+
+.main-offers-date {
+  color: white;
+  background: var(--color-secondary);
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.main-offers-title {
+  margin: 0;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 500;
+  font-size: 26px;
+  font-family: "Lobster", cursive;
+}
+
+.main-offers-type {
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.main-offers-image {
+  width: 100%;
+  height: 100%;
+}

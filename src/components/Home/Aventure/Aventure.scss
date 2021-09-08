@@ -1,0 +1,25 @@
+.aventure {
+  width: 100%;
+  height: 250px;
+  background: url("https://i.ibb.co/jhp3Tz6/aventura.jpg");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 50%;
+  display: flex;
+  align-items: center;
+}
+
+.aventure-title {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.aventure-text {
+  margin-bottom: 3rem;
+  color: white;
+  font-size: 18px;
+}

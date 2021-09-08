@@ -1,0 +1,172 @@
+.airlines {
+  margin: -40px 0 8rem;
+}
+
+.airlines-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 4rem 0 8rem;
+}
+
+.airlines-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  height: 55px;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #f5f5f5;
+  transition: all 0.5s;
+  &:hover {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.airlines-name {
+  display: flex;
+  align-items: center;
+  color: var(--color-primary);
+  h6 {
+    font-size: var(--font-size);
+    font-weight: 500;
+    margin: 0;
+    width: 80px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+.airlines-section {
+  margin: 4rem 0;
+}
+
+.airlines-section {
+  &.alternative {
+    background-color: var(--color-primary);
+    text-align: center;
+    > div {
+      margin: auto;
+      max-width: 1140px;
+      padding: 4rem 0;
+    }
+    h3,
+    h6,
+    span,
+    p {
+      color: white !important;
+    }
+  }
+}
+
+.airlines-paragraph {
+  h6 {
+    font-size: var(--font-size);
+    color: var(--color-text);
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  span {
+    font-size: var(--font-size);
+    color: var(--color-text);
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: left;
+    display: block;
+  }
+
+  p {
+    font-size: 14px;
+    color: var(--color-text);
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+  }
+}
+
+.airlines-paragraph-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  margin-top: 4rem;
+}
+
+.airline-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  img {
+    width: 150px;
+  }
+}
+
+.airline-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.airline-summary-item {
+  h6 {
+    font-size: var(--font-size);
+    color: var(--color-primary);
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  p {
+    font-size: 14px;
+    color: var(--color-text);
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+  }
+}
+
+.airline-description {
+  margin-top: 4rem;
+}
+
+.airline-description-item {
+  margin-bottom: 3rem;
+  h6 {
+    font-size: var(--font-size);
+    color: var(--color-secondary);
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  span {
+    font-size: var(--font-size);
+    color: var(--color-secondary);
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    display: block;
+    text-align: left;
+  }
+
+  p {
+    font-size: 14px;
+    color: var(--color-text);
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  li {
+    list-style: disc;
+  }
+}

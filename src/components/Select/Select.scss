@@ -1,0 +1,22 @@
+.select label {
+  display: block;
+  margin: 0;
+  margin-bottom: 0.7rem;
+  color: var(--color-text);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.select select {
+  border-radius: 0;
+  border-color: var(--color-gray-light);
+  font-size: 1.4rem;
+  width: 100%;
+  height: 35px;
+  outline: none;
+  color: var(--color-text);
+  padding: 0 1rem;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
