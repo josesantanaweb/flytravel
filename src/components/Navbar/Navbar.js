@@ -93,7 +93,7 @@ const Navbar = ({ actualPath }) => {
               <a className="navbar-link" href="/airlines">
                 Aerolineas
               </a>
-              <a className="navbar-link" href="/">
+              <a className="navbar-link" href="/contact">
                 Contacto
               </a>
               <a className="navbar-link" href="/register">

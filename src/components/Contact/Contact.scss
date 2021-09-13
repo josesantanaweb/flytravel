@@ -1,0 +1,151 @@
+.contact-map {
+  margin-top: -223px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.contact-bg-map {
+  width: 100%;
+}
+
+.contact-offices {
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: all .2s;
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  &.valencia {
+    top: 204px;
+    left: 19%;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      bottom: -10px;
+      right: 50px;
+      height: 0;
+      border-width: 10px 10px 0 10px;
+      border-color: white transparent transparent transparent;
+      border-style: solid;
+    }
+  }
+  &.caracas {
+    top: 200px;
+    left: 47%;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      bottom: -10px;
+      left: 30px;
+      height: 0;
+      border-width: 10px 10px 0 10px;
+      border-color: white transparent transparent transparent;
+      border-style: solid;
+    }
+  }
+  img {
+    width: 110px;
+    border-radius: 10px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 12px;
+    color: var(--color-secondary);
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-primary);
+    margin: 0;
+    margin-bottom: 5px;
+    i {
+      color: var(--color-three);
+      margin-right: 5px;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-text);
+    margin: 0;
+    margin-left: 15px;
+  }
+}
+
+.active-valencia {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  top: 339px;
+  z-index: 2;
+  left: 39%;
+}
+
+.active-caracas {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  top: 307px;
+  z-index: 2;
+  left: 47%;
+}
+
+.contact-medios {
+  background-color: #f3f3f3;
+  margin-bottom: 60px;
+  padding: 50px 0;
+}
+
+.contact-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+.contact-item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 130px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  img {
+    margin-right: 20px;
+    width: 50px;
+  }
+  h6 {
+    font-size: 16px;
+    color: var(--color-secondary);
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 14px;
+    color: var(--color-text);
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+}
