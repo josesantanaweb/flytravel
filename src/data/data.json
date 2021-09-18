@@ -4,35 +4,51 @@
       "destinations": [
         {
           "id": 1,
-          "country": "Alemania",
-          "city": "Berlin",
-          "image": "berlin.png",
-          "price": 263,
-          "description": "Vivamus vestibulum, nisl vitae pharetra, elit ex mattis tortor"
+          "country": "Mexico",
+          "city": "Cancun FlyTravel",
+          "image": "cancun.jpg",
+          "price": 380,
+          "description": "Disfruta de las playas mas hermosas de mexico con nuestros paquetes al mejor precio"
         },
         {
           "id": 2,
-          "country": "Inglaterra",
-          "city": "London",
-          "image": "london.png",
-          "price": 463,
-          "description": "Vivamus vestibulum, nisl vitae pharetra, elit ex mattis tortor"
+          "country": "EE.UU",
+          "city": "Miami FlyTravel",
+          "image": "miami.jpg",
+          "price": 550,
+          "description": "Disfruta de las vacaiones que te mereces en las hermosas calles de miami y aprovecha las compras de fin de semana"
         },
         {
           "id": 3,
-          "country": "Francia",
-          "city": "Paris",
-          "image": "paris.png",
-          "price": 323,
-          "description": "Vivamus vestibulum, nisl vitae pharetra, elit ex mattis tortor"
+          "country": "Republica Dominicana",
+          "city": "Santo Domingo FlyTravel",
+          "image": "santodomingo.jpg",
+          "price": 375,
+          "description": "Viaja a santo domingo y Visita la hermosa Catedral primada de america o la increible fortaleza de ozama y saca increibles fotos de estos lugares"
         },
         {
           "id": 4,
-          "country": "Emirates",
-          "city": "Dubai",
-          "image": "dubai.png",
-          "price": 800,
-          "description": "Vivamus vestibulum, nisl vitae pharetra, elit ex mattis tortor"
+          "country": "República Dominicana",
+          "city": "Punta Cana FlyTravel",
+          "image": "puntacana.jpg",
+          "price": 430,
+          "description": "Disfruta de unas vacaciones en punta cana y visita playa macao atrevete a la aventura de los buggys y no dejes de visitar el scape park con sus hermosos cenotes y playas"
+        },
+        {
+          "id": 5,
+          "country": "España",
+          "city": "Madrid FlyTravel",
+          "image": "madrid.jpg",
+          "price": 680,
+          "description": "Entre la Plaza de Cibeles y la Puerta del Sol, junto al comienzo de la Gran Vía, se encuentra el edificio del Círculo de Bellas Artes"
+        },
+        {
+          "id": 6,
+          "country": "España",
+          "city": "Tenerife FlyTravel",
+          "image": "tenerife.jpg",
+          "price": 760,
+          "description": "Santa Cruz de Tenerife es la capital de la isla desde 1833 y la ciudad más grande de Tenerife. Caminar por las pequeñas calles de su centro histórico y pasear por la Rambla te hará conocer el especial carácter de la ciudad"
         }
       ]
     },

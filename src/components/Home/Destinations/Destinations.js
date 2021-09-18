@@ -7,9 +7,10 @@ const Destinations = () => {
     <div className="destinations">
       <div className="destinations-caption">
         <TitleSection
-          title="Ofertas y Destinos"
-          titleCaption="Destacados"
-          subtitle="Encuentra los mejores destinos!"
+          title="Aprovecha Todas las Ofertas"
+          titleCaption="DISPONIBLES A NUESTROS DESTINOS DESTACADOS"
+          subtitle="¡Descuentos desde y hacia Venezuela
+          en los siguientes destinos!"
         />
       </div>
       <DestinationsSlider />

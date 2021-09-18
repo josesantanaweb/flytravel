@@ -9,7 +9,7 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  speed: 500,
+  speed: 100,
   variableWidth: true,
   nextArrow: <SampleNextArrow />,
   prevArrow: <SamplePrevArrow />,
@@ -35,7 +35,7 @@ function SamplePrevArrow({ onClick }) {
 
 const DestinationsSlider = () => {
   return (
-    <Slider {...settings} style={{ width: "70%" }}>
+    <Slider {...settings} style={{ width: "60%" }}>
       {data[0].destinations.map((dest, key) => (
         <div className="destinations-item" key={key}>
           <div className="destinations-card">
