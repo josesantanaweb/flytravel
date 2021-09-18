@@ -35,7 +35,7 @@ function SamplePrevArrow({ onClick }) {
 
 const DestinationsSlider = () => {
   return (
-    <Slider {...settings} style={{ width: "60%" }}>
+    <Slider {...settings} style={{ width: "70%" }}>
       {data[0].destinations.map((dest, key) => (
         <div className="destinations-item" key={key}>
           <div className="destinations-card">
