@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import Hero from "components/Hero/Hero";
 import Destinations from "components/Home/Destinations/Destinations";
 import Steps from "components/Home/Steps/Steps";
-import Aventure from "components/Home/Aventure/Aventure";
 import Blog from "components/Home/Blog/Blog";
 import Payments from "components/Home/Payments/Payments";
 import MainOffers from "components/Home/Offers/Offers";
@@ -41,9 +40,8 @@ const Home = () => {
       <Destinations />
       <Steps />
       <MainOffers />
-      <Aventure />
-      <Blog />
       <Payments />
+      <Blog />
       <MainFooter />
     </React.Fragment>
   );

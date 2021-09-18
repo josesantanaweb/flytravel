@@ -56,73 +56,73 @@
       "offers": [
         {
           "id": 1,
-          "city": "Miami Beach",
-          "image": "offers_1.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Cancun FlyTravel",
+          "image": "cancun-2.jpg",
+          "time": "LAS MEJORES PLAYAS",
+          "type": "VUELOS + HOTEL + ACTIVIDADES"
         },
         {
           "id": 2,
-          "city": "Miami Beach",
-          "image": "offers_2.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Tenerife FlyTravel",
+          "image": "tenerife-2.jpg",
+          "time": "VISITA LAS ISLAS CANARIAS",
+          "type": "RESERVA + SEGURO + HOTEL"
         },
         {
           "id": 3,
-          "city": "Miami Beach",
-          "image": "offers_3.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Miami FlyTravel",
+          "image": "miami-2.jpg",
+          "time": "REALIZA COMPRAS EN MIAMI",
+          "type": "RESERVA + HOTEL + AUTO"
         },
         {
           "id": 4,
-          "city": "Miami Beach",
-          "image": "offers_4.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Santo Domingo FlyTravel",
+          "image": "santodomingo-2.jpg",
+          "time": "VISITA SANTO DOMINGO",
+          "type": "RESERVA + HOTEL + ACTIVIDADES"
         },
         {
           "id": 5,
-          "city": "Miami Beach",
-          "image": "offers_5.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Bogota FlyTravel",
+          "image": "bogota.jpg",
+          "time": "12 DIAS EN BOGOTA",
+          "type": "VUELOS + HOTELES"
         },
         {
           "id": 6,
-          "city": "Miami Beach",
-          "image": "offers_1.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Barcelona FlyTravel",
+          "image": "barcelona.jpg",
+          "time": "UN DESTINO UNICO",
+          "type": "VUELOS + HOTEL + SEGURO"
         },
         {
           "id": 7,
-          "city": "Miami Beach",
-          "image": "offers_3.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Punta Cana FlyTravel",
+          "image": "puntacana-2.jpg",
+          "time": "LAS MEJORES PLAYAS",
+          "type": "VUELOS + HOTEL + PARQUES"
         },
         {
           "id": 8,
-          "city": "Miami Beach",
-          "image": "offers_4.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Madrid FlyTravel",
+          "image": "madrid-2.jpg",
+          "time": "VIAJA A MADRID",
+          "type": "VUELOS + HOTEL + SEGURO"
         },
         {
           "id": 9,
-          "city": "Miami Beach",
-          "image": "offers_2.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Malaga FlyTravel",
+          "image": "malaga.jpg",
+          "time": "PASEA EN MALAGA",
+          "type": "VUELOS + HOTEL + SEGURO"
         },
         {
           "id": 10,
-          "city": "Miami Beach",
-          "image": "offers_5.png",
-          "time": "24 HORAS DE EMOCION",
-          "type": "Hotel -Vuelos"
+          "city": "Los Roques FlyTravel",
+          "image": "losroques.jpg",
+          "time": "VISITA LOS ROQUES",
+          "type": "VUELOS + POSADA "
         }
       ]
     },

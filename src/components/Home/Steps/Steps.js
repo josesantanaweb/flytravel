@@ -15,7 +15,7 @@ const StepOne = () => {
   return (
     <div className="steps-item-one">
       <i className="fa fa-search" />
-      <h6 className="steps-item-title">Busca</h6>
+      <h6 className="steps-item-title">Busca tu Destino</h6>
     </div>
   );
 };
@@ -24,7 +24,7 @@ const StepTwo = () => {
   return (
     <div className="steps-item-two">
       <i className="fa fa-calendar" />
-      <h6 className="steps-item-title">Reserva</h6>
+      <h6 className="steps-item-title">Selecciona las Fechas</h6>
     </div>
   );
 };
@@ -53,9 +53,9 @@ const Steps = () => {
       <div className="container">
         <TitleSection
           center="true"
-          title="Vuela a tu Destino"
-          titleCaption="Con Estos 5 Pasos"
-          subtitle="Como Comprar en"
+          title="Compra tu boleto"
+          titleCaption="Con Estos 5 sencillos Pasos"
+          subtitle="Como Comprar en "
           subtitleCaption="FLY TRAVEL"
         />
         <div className="steps-items">
@@ -68,9 +68,11 @@ const Steps = () => {
           <div className="steps-item-four-wrapper">{StepFour()}</div>
         </div>
         <h6 className="steps-invitation">
-          Te invitamos a conocer miles de destinos
+          Te invitamos a leer sobre los mejores viajes y las mejores aereolineas
         </h6>
-        <Button label="Ver Mas" className="button-primary" />
+        <a className="button button-primary" href="/airlines">
+          Ver mas
+        </a>
       </div>
     </div>
   );
