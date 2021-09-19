@@ -25,7 +25,7 @@
     visibility: visible;
   }
   &.valencia {
-    top: 204px;
+    top: 160px;
     left: 19%;
     &:after {
       content: '';
@@ -40,7 +40,7 @@
     }
   }
   &.caracas {
-    top: 200px;
+    top: 140px;
     left: 47%;
     &:after {
       content: '';
@@ -93,7 +93,7 @@
   position: absolute;
   width: 70px;
   height: 60px;
-  top: 339px;
+  top: 279px;
   z-index: 2;
   left: 39%;
 }
@@ -102,7 +102,7 @@
   position: absolute;
   width: 100px;
   height: 20px;
-  top: 307px;
+  top: 265px;
   z-index: 2;
   left: 47%;
 }
