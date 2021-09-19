@@ -1,6 +1,4 @@
 .contact-map {
-  margin-top: -223px;
-  padding-top: 50px;
   margin-bottom: 100px;
   position: relative;
 }
@@ -113,6 +111,7 @@
   background-color: #f3f3f3;
   margin-bottom: 60px;
   padding: 50px 0;
+  margin-top: -230px;
 }
 
 .contact-items {
@@ -147,5 +146,44 @@
     margin: 0;
     font-weight: 500;
     margin-bottom: 5px;
+  }
+}
+
+.contact-message {
+  margin-bottom: 100px;
+}
+
+.contact-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  grid-gap: 20px;
+  margin-bottom: 20px;
+  input {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    color: cornflowerblue;
+    height: 50px;
+    font-size: 14px;
+    border: 0;
+    padding: 10px 15px;
+    outline: none;
+  }
+}
+
+.contact-column {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  textarea {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    color: cornflowerblue;
+    height: 200px;
+    width: 100%;
+    font-size: 14px;
+    border: 0;
+    padding: 10px 15px;
+    outline: none;
   }
 }
