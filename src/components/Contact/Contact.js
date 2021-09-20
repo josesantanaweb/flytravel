@@ -71,7 +71,7 @@ const Contact = () => {
           titleCaption="OFICINAS"
           subtitle="Precio por persona ida y vuelta"
         />
-        <div>
+        <div className="contact-path">
           <img src="images/map.jpg" />
           <div className={`contact-offices valencia ${activeValencia ? 'active' : ''}`}>
             <div>
