@@ -315,6 +315,7 @@
           "id": 6,
           "name": "Plus Ultra",
           "abr": "PU",
+          "link": "plusultra",
           "image": "plus_ultra.png"
         },
         {
@@ -327,6 +328,7 @@
           "id": 8,
           "name": "Laser",
           "abr": "LA",
+          "link": "laser",
           "image": "laser.png"
         },
         {
@@ -352,6 +354,7 @@
           "id": 12,
           "name": "Turkish Airlines",
           "abr": "TA",
+          "link": "turkish",
           "image": "turkish_airlines.png"
         },
         {
